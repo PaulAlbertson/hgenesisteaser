@@ -1,0 +1,13 @@
+/*
+ * Stomp Interactive 
+ * Author: drstomp
+ */
+#logoContainer {
+  position: relative;
+  top: 0px;
+  z-index: 50;
+}
+#jumboContainer {
+  position: relative;
+  z-index: 20;
+}
