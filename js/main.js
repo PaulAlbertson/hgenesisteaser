@@ -41,9 +41,9 @@ require(['jquery', 'less', 'hammer','jsvideo','modernizr','iwadetection'], funct
     var retinaCheck = IWADeviceDetection.prototype.detect();
     //alert("Detect Value: "+retinaCheck);
     if (retinaCheck == 'no-touch'){
-    	// $.getScript( "js/libs/raphael-min.js", function() {
-		  // console.log( "Non touch - Raphael Loaded" );
-		// });
+    	$.getScript( "js/libs/raphael-min.js", function() {
+		  console.log( "Non touch - Raphael Loaded" );
+		});
     };
     
     //hyundaiVideoPlayer.pause();
